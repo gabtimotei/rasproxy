@@ -1,8 +1,6 @@
 const http = require('http')
 const url = require('url')
 
-console.log('Something')
-
 http.createServer(function (request, response) {
   var proxy = http.request({
     port: 80,
